@@ -1,9 +1,7 @@
 export const Contact = () => {
   return (
-    <div> 
-        <a href="#contact">Contact
-          cdc
-        </a>
-      </div>
+    <div className="border-b border-neutral-900 pb-20"> 
+       <h1 className="my-10 text-center text-4xl">Get in Touch </h1>
+      </div> 
   )
 }
