@@ -1,4 +1,4 @@
-// import project1 from "../assets/projects/project-1.jpg";
+import portfoliojatin from "../assets/projects/portfoliojatin.png";
 // import project2 from "../assets/projects/project-2.jpg";
 // import project3 from "../assets/projects/project-3.jpg";
 // import project4 from "../assets/projects/project-4.jpg";
@@ -22,7 +22,7 @@ export const PROJECTS = [
  
   {
     title: "Portfolio Website",
-    // image: project3,
+    image: portfoliojatin,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "Tailwind CSS", "React", "Bootstrap"],

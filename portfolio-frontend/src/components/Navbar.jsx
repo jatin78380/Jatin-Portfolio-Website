@@ -11,9 +11,15 @@ export const Navbar = () => {
           <img className="mx-2 w-10" src={JPP} alt="logo"/> 
         </div>
         <div className="m-8 flex itens-center justify-center gap-4 text-2xl">
-          <FaLinkedin/>
+         <a href="https://www.linkedin.com/in/jatin-parashar-1b1905222/" target="_blank">
+          <FaLinkedin />
+          </a>
+          <a href="https://github.com/jatin78380" target="_blank"> 
           <FaGithub/>
+          </a>
+          <a href="https://leetcode.com/u/jatinparasharjkadb/" target="_blank">
           <SiLeetcode/>
+          </a>
 
         </div>
         </nav>

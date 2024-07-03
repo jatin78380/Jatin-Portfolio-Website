@@ -3,7 +3,7 @@ import {motion} from "framer-motion"
 export const Experience = () => {
   return (
     <div 
-    whileInViewclassName="border-b border-neutral-900 pb-4"> 
+    className="border-b border-neutral-900 pb-4"> 
     <motion.h1 
     whileInView={{opacity:1, y:0}}
     initial = {{opacity:0, y:-100}}
@@ -32,7 +32,7 @@ export const Experience = () => {
           </h6>
           <p className="mb-4 text-neutral-400">{experience.description}</p>
           {experience.technologies.map((technology,index)=>(
-            <span key={index} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-blu e-800">
+            <span key={index} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-blue-800">
                 {technology}
             </span>
           ))}
