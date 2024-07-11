@@ -1,6 +1,6 @@
 import portfoliojatin from "../assets/projects/portfoliojatin.png";
-// import project2 from "../assets/projects/project-2.jpg";
-// import project3 from "../assets/projects/project-3.jpg";
+// import PICTURE from "../assets/projects/PICTURE.jpg";
+import SalonProject from "../assets/projects/SalonProject.png";
 // import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React , as well as back-end technologies like Node.js, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -22,21 +22,21 @@ export const PROJECTS = [
  
   {
     title: "Portfolio Website",
-    image: portfoliojatin,
+    image: "portfoliojatin",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "Tailwind CSS", "React", "Bootstrap"],
   },
   {
-    title: "E-Commerce Website",
-    // image: project1,
+    title: "E-Commerce Website(Will Made Later july)",
+    // image: "PICTURE",
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "Tailwind CSS", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Salon Website",
-    // image: project2,
+    title: "Salon Website(working)",
+    image: "SalonProject",
     description:
       "A fully functional blog website with features like user authentication, CRUD operations, and admin dashboard.",
     technologies: ["HTML", "Tailwind CSS", "Next.js", "Node.js", "MongoDB"],

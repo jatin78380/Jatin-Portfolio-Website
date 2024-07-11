@@ -1,6 +1,14 @@
 import { PROJECTS } from "../constants"
 import {motion} from "framer-motion"
-import portfoliojatin from "../assets/projects/portfoliojatin.png"
+import portfoliojatin from "../assets/projects/portfoliojatin.png";
+// import PICTURE from "../assets/projects/PICTURE.jpg";
+import SalonProject from "../assets/projects/SalonProject.png";
+
+const imageMap = {
+    portfoliojatin,
+    // PICTURE,
+    SalonProject,
+  };
 export const Projects = ()=>{
     return(
         <div className="border-b border-neutral-900 pb-4"> 
@@ -15,7 +23,7 @@ export const Projects = ()=>{
                         whileInView={{opacity:1 , x:0}}
                         initial={{opacity:0 ,x:-100}}
                         transition={{duration: 1}} className="w-full lg:w-1/4"> 
-                        <img src={portfoliojatin}   className="mb-6 rounded"width={150} height={150} alt=""/>
+                        <img  src={imageMap[project.image]} className="mb-6 rounded"width={150} height={150} alt=""/>
                         </motion.div>
                         <motion.div 
                         whileInView={{opacity:1 ,x:0}}
