@@ -25,20 +25,20 @@ export const PROJECTS = [
     image: "portfoliojatin",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "Tailwind CSS", "React", "Bootstrap"],
+    technologies: ["React", "Tailwind CSS", "HTML"],
   },
   {
-    title: "E-Commerce Website(Will Made Later july)",
+    title: "Blogging Website(Will be developed after internship)",
     // image: "PICTURE",
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "Tailwind CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional blogging website .",
+    technologies: ["React","Typescript","Postgresql"],
   },
   {
-    title: "Salon Website(working)",
+    title: "Salon Website(currently in progress)",
     image: "SalonProject",
     description:
-      "A fully functional blog website with features like user authentication, CRUD operations, and admin dashboard.",
-    technologies: ["HTML", "Tailwind CSS", "Next.js", "Node.js", "MongoDB"],
+      "A fully functional Salon website with features like user signup, CRUD operations, and booking appointments.",
+    technologies: ["Nextjs", "Tailwind CSS", "Node.js", "MongoDB","Cloudinary"],
   }
 ];
