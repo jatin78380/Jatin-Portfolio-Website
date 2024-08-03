@@ -17,8 +17,8 @@ export const Navbar = () => {
           <a href="https://github.com/jatin78380"  target="_blank"> 
           <FaGithub/>
           </a>
-          <a href="https://leetcode.com/u/jatinparasharjkadb/" target="_blank">
-          <SiLeetcode/>
+          <a href="https://leetcode.com/u/jatinparasharjkadb/"  target="_blank">
+          <SiLeetcode style={{ color: '#F9DC3E' }}/>
           </a>
 
         </div>
