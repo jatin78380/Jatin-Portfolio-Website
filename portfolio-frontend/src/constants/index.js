@@ -12,8 +12,8 @@ export const EXPERIENCES = [
     year: "June,2024 - Present",
     role: "Full Stack Developer Intern",
     company: "Lagaland",
-    description: `I along with my team member are working on making Salon website,I am working on Backend part using  Node.js,ExpressJs. Implementing RESTful APIs for signin,signup of salon user,updating their salon time on website,and uploading photos of their salons, storing data on MongoDB databases(storing link of image on mongodb,image is uploaded to cloudinary). `,
-    technologies: [ "ExpressJs", "MongoDB"],
+    description: `I along with my team member are currently developing a comprehensive salon management website that includes features such as appointment booking, salon and stylist registration, and secure sign-in. The project involves uploading images to Cloudinary and storing image links and salon data in MongoDB. Additionally, we are implementing functionality for salons to manage and display their operating hours effectively. `,
+    technologies: [ "Next.js","Tailwind CSS","shadcn","ExpressJs", "MongoDB"],
   },
   
 ];
@@ -39,6 +39,6 @@ export const PROJECTS = [
     image: "SalonProject",
     description:
       "I am currently developing a comprehensive salon management website that includes features such as appointment booking, salon and stylist registration, and secure sign-in. The project involves uploading images to Cloudinary and storing image links and salon data in MongoDB. Additionally, I am implementing functionality for salons to manage and display their operating hours effectively.",
-    technologies: ["Nextjs", "Tailwind CSS", "Node.js", "MongoDB","Cloudinary"],
+    technologies: ["Nextjs", "Tailwind CSS", "ExpressJs", "MongoDB","Cloudinary"],
   }
 ];
