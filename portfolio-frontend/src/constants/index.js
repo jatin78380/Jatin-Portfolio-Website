@@ -38,7 +38,7 @@ export const PROJECTS = [
     title: "Salon Website(currently in progress)",
     image: "SalonProject",
     description:
-      "A fully functional Salon website with features like user signup, CRUD operations, and booking appointments.",
+      "I am currently developing a comprehensive salon management website that includes features such as appointment booking, salon and stylist registration, and secure sign-in. The project involves uploading images to Cloudinary and storing image links and salon data in MongoDB. Additionally, I am implementing functionality for salons to manage and display their operating hours effectively.",
     technologies: ["Nextjs", "Tailwind CSS", "Node.js", "MongoDB","Cloudinary"],
   }
 ];
