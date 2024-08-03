@@ -12,7 +12,7 @@ export const Navbar = () => {
         </div>
         <div className="m-8 flex itens-center justify-center gap-4 text-2xl">
          <a href="https://www.linkedin.com/in/jatin-parashar-1b1905222/" target="_blank">
-          <FaLinkedin style={{ color: 'blue' }} />
+          <FaLinkedin style={{ color: '#0077B5' }} />
           </a>
           <a href="https://github.com/jatin78380"  target="_blank"> 
           <FaGithub/>
