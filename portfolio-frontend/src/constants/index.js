@@ -9,7 +9,7 @@ export const ABOUT_TEXT = `I am a dedicated and resilient full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "June,2024 - Present",
+    year: "June,2024 - October,2024",
     role: "Full Stack Developer Intern",
     company: "Lagaland",
     description: `I along with my team member are currently developing a comprehensive salon management website that includes features such as appointment booking, salon and stylist registration, and secure sign-in. The project involves uploading images to Cloudinary and storing image links and salon data in MongoDB. Additionally, we are implementing functionality for salons to manage and display their operating hours effectively. `,
@@ -27,15 +27,15 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind CSS", "HTML"],
   },
+  // {
+  //   title: "Blogging Website(Will be developed after internship)",
+  //   // image: "PICTURE",
+  //   description:
+  //     "A fully functional blogging website .",
+  //   technologies: ["React","Typescript","Postgresql"],
+  // },
   {
-    title: "Blogging Website(Will be developed after internship)",
-    // image: "PICTURE",
-    description:
-      "A fully functional blogging website .",
-    technologies: ["React","Typescript","Postgresql"],
-  },
-  {
-    title: "Salon Website(currently in progress)",
+    title: "Salon Website",
     image: "SalonProject",
     description:
       "I am currently developing a comprehensive salon management website that includes features such as appointment booking, salon and stylist registration, and secure sign-in. The project involves uploading images to Cloudinary and storing image links and salon data in MongoDB. Additionally, I am implementing functionality for salons to manage and display their operating hours effectively.",
