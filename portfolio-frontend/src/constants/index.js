@@ -13,7 +13,7 @@ export const EXPERIENCES = [
     role: "Full Stack Developer Intern",
     company: "Lagaland",
     description: `I along with my team member are currently developing a comprehensive salon management website that includes features such as appointment booking, salon and stylist registration, and secure sign-in. The project involves uploading images to Cloudinary and storing image links and salon data in MongoDB. Additionally, we are implementing functionality for salons to manage and display their operating hours effectively. `,
-    technologies: [ "Next.js","Tailwind CSS","shadcn","ExpressJs", "MongoDB"],
+    technologies: ["ExpressJs", "MongoDB","Cloudinary"],
   },
   
 ];
@@ -39,6 +39,6 @@ export const PROJECTS = [
     image: "SalonProject",
     description:
       "I am currently developing a comprehensive salon management website that includes features such as appointment booking, salon and stylist registration, and secure sign-in. The project involves uploading images to Cloudinary and storing image links and salon data in MongoDB. Additionally, I am implementing functionality for salons to manage and display their operating hours effectively.",
-    technologies: ["Nextjs", "Tailwind CSS", "ExpressJs", "MongoDB","Cloudinary"],
+    technologies: ["ExpressJs", "MongoDB","Cloudinary"],
   }
 ];
